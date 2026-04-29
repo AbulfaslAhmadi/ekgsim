@@ -68,7 +68,7 @@
 /// mpi header does not like being included after iostream, so special care should be taken using
 /// this header. Either include mpi.h earlier, or include this header before iostream
 
-
+#include <cstdint>
 #include <mpi.h>
 #include <exception>
 #include <vector>
